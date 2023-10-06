@@ -1,0 +1,43 @@
+.navbar{
+    filter: opacity(90%);
+    
+}
+
+.brillo{
+    filter:brightness(50%);
+}
+.mueve-card{
+    position: absolute;
+    top:70%;
+    left:30%;
+    transform: translate(-10%,-50%);
+}
+.punteado{
+    border-bottom: 1px dashed #999;
+    text-decoration: none; 
+}
+.opacar{
+    filter: brightness(50%);
+}
+@media (max-width: 900px){
+    .mueve-card{
+        position: absolute;
+        top:50%;
+        left:10%;
+        transform: translate(-10%,-50%);
+    }
+
+}
+@media (max-width:600px){
+    .mueve-card{
+        position: absolute;
+        top:30%;
+        left:10%;
+        transform: translate(-10%,-50%);
+    }
+}
+@media screen and (max-width:550px) {
+    #texto{
+        display: none;
+    }
+}
