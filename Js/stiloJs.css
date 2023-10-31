@@ -1,0 +1,10 @@
+.navbar{
+    filter: opacity(90%);
+    
+}
+.opacar{
+    filter: brightness(50%);
+}
+textarea{
+    resize:none;
+}
